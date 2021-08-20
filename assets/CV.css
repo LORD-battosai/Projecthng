@@ -34,7 +34,7 @@ a {
 }
 .profile {
 	width: 50%;
-	border-bottom: 1px solid #002333;
+	/* border-bottom: 1px solid #002333; */
 }
 
 /* .image {
@@ -555,11 +555,15 @@ a {
 	}
 }
 /*# sourceMappingURL=CV.css.map */
+
 #container {
-	background-color: lightblue;
-	width: 45%;
+	/* background-color: lightblue; */
+	/* width: 45%; */
 	margin: 30px;
 	padding: 40px;
+	display: flex;
+	position: relative;
+	right: 5%;
 }
 #contact-form input[type="text"],
 #contact-form input[type="email"],
