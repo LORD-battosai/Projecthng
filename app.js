@@ -38,7 +38,9 @@ app.post('/form', (req,res) => {
 app.get('/', function(req, res){
     res.render('cv');
 });
+
 app.listen(port, () => {
 	console.log(`Server running on port ${port}`);
 });
+
                                                                               

@@ -20,6 +20,31 @@ a {
   text-decoration: none;
 }
 
+.left-section {
+	grid-column: span 2;
+	height: 30%;
+	background-color: #00324a;
+}
+
+.left-content {
+	padding: 2rem 3rem;
+}
+.profile {
+	width: 50%;
+	border-bottom: 1px solid #002333;
+}
+
+.image {
+	width: 50%;
+	text-align: center;
+}
+
+.profile img {
+	width: 50%;
+	border-radius: 50%;
+	border: 8px solid #002333;
+}
+
 .clearfix::after, .clearfix::before {
   content: " ";
   display: table;
@@ -523,7 +548,7 @@ a {
 #container {
   background-color: lightblue;
   width: 45%;
-  margin: 50px;
+  margin: 30px;
   padding: 40px;
 }
 #contact-form input[type="text"],
